@@ -17,8 +17,8 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: colors.red[700],
-          ...colors.red
+          DEFAULT: colors.violet[700],
+          ...colors.violet
         }
       },
       fontFamily: {
