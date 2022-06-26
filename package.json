@@ -1,4 +1,11 @@
 {
+  "name": "nuxt-3-static-blog",
+  "description": "Simple project to generate a static blog web site with Nuxt3, Nuxt content v2, and tailwindCSS",
+  "author": {
+    "name": "Victor Torres",
+    "email": "vikthort.t@gmail.com",
+    "url": "https://victortorres.dev"
+  },
   "private": true,
   "scripts": {
     "build": "nuxt build",
