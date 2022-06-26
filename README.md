@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Static Blog
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+Nuxt 3 static blog generator inspired by [this video](https://www.youtube.com/watch?v=hDJGGzyaYx8&ab_channel=BehonBaker).
 
 ## Setup
 
@@ -30,13 +30,9 @@ npm run dev
 Build the application for production:
 
 ```bash
-npm run build
+npm run generate
 ```
 
-Locally preview production build:
-
-```bash
-npm run preview
-```
+Now you should be able to deploy the content of `.output/public` to any static hosting service
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
