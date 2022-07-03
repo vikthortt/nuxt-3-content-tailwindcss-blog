@@ -1,6 +1,4 @@
 <script setup>
-import { ref } from "vue";
-
 const items = [
   {
     name: "Blog",
@@ -13,19 +11,24 @@ const items = [
 ];
 </script>
 
-<style lang="scss" scoped></style>
-
 <template>
-  <header class="flex item-center justify-between h-20 px-[5%] lg:px-[15%]">
-    <NuxtLink to="/" class="font-bold text-2xl lg:text-4xl">
-      Victor's Blog
-    </NuxtLink>
-    <nav class="flex items-center space-x-7 text-gray-600">
-      <template v-for="(item, idx) in items" :key="`Link-${idx}`">
-        <NuxtLink :to="item.link">
-          <span class="font-medium">{{ item.name }}</span>
-        </NuxtLink>
-      </template>
-    </nav>
+  <header
+    class="flex items-center justify-center h-20 px-[1em] lg:px-[2em] bg-primary"
+  >
+    <FlexContainer direction="row" items="center" justify="space-between">
+      <NuxtLink
+        to="/"
+        class="flex items-center text-2xl lg:text-4xl text-white"
+      >
+        <span class="font-['Oxanium']"> VICTOR TORRES</span>
+      </NuxtLink>
+      <nav class="flex items-center space-x-7 text-white">
+        <template v-for="(item, idx) in items" :key="`Link-${idx}`">
+          <NuxtLink :to="item.link">
+            <span class="font-medium font-header">{{ item.name }}</span>
+          </NuxtLink>
+        </template>
+      </nav>
+    </FlexContainer>
   </header>
 </template>

@@ -1,30 +1,31 @@
 /** @type {import('tailwindcss').Config} */
-const colors = require('tailwindcss/colors')
 
 module.exports = {
   content: [
-    'components/**/*.{vue,js,ts}',
-    'layouts/**/*.vue',
-    'pages/**/*.vue',
-    'composables/**/*.{js,ts}',
-    'plugins/**/*.{js,ts}',
-    'content/**/*.{md,yml,json,yaml,toml,csv}',
-    'App.{js,ts,vue}',
-    'app.{js,ts,vue}'
+    "components/**/*.{vue,js,ts}",
+    "layouts/**/*.vue",
+    "pages/**/*.vue",
+    "composables/**/*.{js,ts}",
+    "plugins/**/*.{js,ts}",
+    "content/**/*.{md,yml,json,yaml,toml,csv}",
+    "App.{js,ts,vue}",
+    "app.{js,ts,vue}",
   ],
-  darkMode: 'class',
+  darkMode: "class",
   theme: {
+    fontFamily: {
+      header: ["Karla"],
+      body: ['"Merriweather Sans"'],
+    },
     extend: {
       colors: {
-        primary: {
-          DEFAULT: colors.violet[700],
-          ...colors.violet
-        }
+        primary: "#16212B",
+        white: "#D5D6D7",
       },
       fontFamily: {
-        sans: ["Inter"]
-      }
+        sans: ["Karla"],
+      },
     },
   },
-  plugins: [require('@tailwindcss/typography')],
-}
+  plugins: [require("@tailwindcss/typography")],
+};

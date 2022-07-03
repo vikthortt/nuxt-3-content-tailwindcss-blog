@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Karla";
+  src: local("Karla"),
+    url(assets/fonts/Karla-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Merriweather Sans";
+  src: local("Merriweather Sans"),
+    url(assets/fonts/MerriweatherSans-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Oxanium";
+  src: local("Oxanium"),
+    url(assets/fonts/Oxanium-VariableFont_wght.ttf) format("truetype");
+}
