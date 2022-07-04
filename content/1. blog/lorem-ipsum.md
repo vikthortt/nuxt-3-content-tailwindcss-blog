@@ -1,6 +1,7 @@
 ---
 title: Lorem ipsum
 description: Lorem template page.
+date: 2022-06-25T16:41:32
 head.title: Lorem ipsum
 head.description: Lorem template page.
 ---
