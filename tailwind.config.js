@@ -20,7 +20,10 @@ module.exports = {
     extend: {
       colors: {
         primary: "#16212B",
-        white: "#D5D6D7",
+        secondary: "#213A55",
+        "dark-gray": "#67788D",
+        gray: "#B2C3D1",
+        white: "#D5D6D7"
       },
       fontFamily: {
         sans: ["Karla"],

@@ -26,14 +26,14 @@ const displayDate = computed(() => {
 
 <template>
   <div class="w-full border-l-4 my-8 pl-4 lg:pl-8">
-    <div class="p-2 lg:p-12 shadow hover:shadow-lg">
-      <p class="font-body text-gray-500 text-sm">{{ displayDate }}</p>
+    <div class="p-2 lg:p-4 shadow hover:shadow-lg">
+      <p class="font-body text-dark-gray text-xs">{{ displayDate }}</p>
       <NuxtLink :to="blog._path">
-        <h3 class="text-lg lg:text-3xl font-semibold font-header mb-2 lg:mb-4">
+        <h3 class="text-xl text-primary font-bold font-header my-2 lg:mb-4">
           {{ blog.title }}
         </h3>
       </NuxtLink>
-      <p class="font-body">{{ blog.description }}</p>
+      <p class="font-body text-secondary">{{ blog.description }}</p>
     </div>
   </div>
 </template>

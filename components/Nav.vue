@@ -13,12 +13,12 @@ const items = [
 
 <template>
   <header
-    class="flex items-center justify-center h-20 px-[1em] lg:px-[2em] bg-primary"
+    class="flex items-center justify-center h-16 px-[1em] lg:px-[2em] bg-primary"
   >
     <FlexContainer direction="row" items="center" justify="space-between">
       <NuxtLink
         to="/"
-        class="flex items-center text-2xl lg:text-4xl text-white"
+        class="flex items-center text-lg lg:text-2xl text-white"
       >
         <span class="font-['Oxanium']"> VICTOR TORRES</span>
       </NuxtLink>
